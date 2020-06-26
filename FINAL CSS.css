@@ -1,0 +1,205 @@
+html { /*trying to lower overlapping */
+min-width: 1500px;
+position: relative;
+}
+
+body{
+	background-color:grey;
+	margin:0;
+}
+
+.header{
+	display:flex;
+	justify-content:space-around;
+	flex-flow:row wrap;
+	background-image:url('Images/back.jpg');
+	background-size: cover;
+	height:740px;
+
+}
+
+.mid{
+	color:white;
+	margin-top:250px;
+	margin-left:-100px;
+}
+
+#para{
+	font-size:30px;
+	margin-top:-40px;
+}
+
+#form{
+	fontsize:40px;
+}
+
+.side{
+	margin-top:20px;
+	margin-left:-150px;
+	margin-right:-110px;
+}
+
+.sign{
+	background-color: #e50914;
+	margin-bottom: 1000px;
+	padding:10px 20px 10px 20px;
+	color:white;
+    font-family:sans-serif;
+	border-radius:7px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.main{
+	background-color:black;
+	height:500px;
+	color:white;
+	display:flex;
+	flex-flow:row wrap;
+	margin:10px 0px 10px 0px;
+	justify-content:space-around;
+}
+
+#main-section{
+	display:flex;
+	flex-flow:column wrap;
+}
+
+.main div{
+	margin:100px 0px 30px 70px;
+}
+	
+.pre-footer{
+    display:flex;
+	flex-flow:column wrap;
+	margin:10px 0px 0px 0px;
+	background-color:black;
+	color:white;
+	align-items:center;
+}
+
+
+.pre-footer details{
+	font-size:30px;
+	border-style:solid;
+	padding:10px 10px 10px 10px;
+	width:700px;
+	text-align:left;
+
+}
+
+.pre-footer details p{
+  font-size:20px;
+}
+
+footer{
+	background-color:black;
+	color:white;
+	margin:10px 0px 0px 0px;
+	display:flex;
+	flex-flow:column wrap;
+	align-items:center;
+}
+
+footer nav ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+footer nav ul li{
+	list-style-type:none;
+}
+
+
+footer section{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+.in{
+	background-color:red;
+	color:white;
+	padding:20px;
+	font-size:30px;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+
+.input{
+	width:500px;
+	height:75px;
+    font-size:19px;	
+}
+
+.tv1{
+    background-image: url('Images/TV.jpg');
+	background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.tv1 img {
+    position: absolute;
+    top: 30px; 
+    left: 80px;
+}
+
+.tv2{
+    background-image: url('Images/phone.jpg');
+	background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.tv2 #img1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+	right:30px;
+	width:150px;
+	height:350px;
+}
+
+.tv2 #img2 {
+    position: absolute;
+    top:320px;
+    left:50px;
+	right:30px;
+	width:200px;
+	height:60px;
+}
+
+.tv3{
+    background-image: url('Images/device.jpg');
+	background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.tv3 img {
+    position: absolute;
+    top: 15px;
+    left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
